@@ -1,0 +1,70 @@
+{
+	"Without time": {
+		"prefix": "notime",
+		"body": [
+		  "#include <bits/stdc++.h>",
+		  "",
+		  "#define ll long long",
+		  "using namespace std;",
+		  "",
+		  "void solve() {",
+		  "    ",
+		  "}",
+		  "",
+		  "int main() {",
+		  "    ios_base::sync_with_stdio(false);",
+		  "    cin.tie(NULL);",
+		  "",
+		  "    solve();",
+		  "}"
+		],
+		"description": ""
+	},
+	"codeforces": {
+		"prefix": "test",
+		"body": [
+		  "#include <bits/stdc++.h>",
+		  "",
+		  "#define ll long long",
+		  "using namespace std;",
+		  "int test_case;",
+		  "void solve() {",
+		  "    ",
+		  "}",
+		  "",
+		  "int main() {",
+		  "    ios_base::sync_with_stdio(false);",
+		  "    cin.tie(NULL);",
+		  "    cin >> test_case;",
+		  "    while(test_case--) {",
+		  "        solve();",
+		  "        cout << '\\n';",
+		  "    }",
+		  "}"
+		],
+		"description": ""
+	},
+	"iofile": {
+		"prefix": "iofile",
+		"body": [
+		  "#include <bits/stdc++.h>",
+		  "",
+		  "#define ll long long",
+		  "using namespace std;",
+		  "",
+		  "void solve() {",
+		  "    ",
+		  "}",
+		  "",
+		  "int main() {",
+		  "    ios_base::sync_with_stdio(false);",
+		  "    cin.tie(NULL);",
+		  "    freopen(\"$TM_FILENAME_BASE.inp\",\"r\",stdin);",
+		  "    freopen(\"$TM_FILENAME_BASE.out\",\"w\",stdout);",
+		  "",
+		  "    solve();",
+		  "}"
+		],
+		"description": ""
+	}
+}
