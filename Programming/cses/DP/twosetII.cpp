@@ -2,24 +2,25 @@
 
 #define ll long long
 using namespace std;
-ll n,dp[1001],mod = 10e9+7;
+ll n,dp[1000000],mod = 10e8+7;
 void solve() {
+    if(n*(n+1)%4!=0) {
+        cout << 0;
+        return;
+    }
     dp[0] = 1;
-    for(int i = 1; i <= n; ++i) {
-        for(int j = 1000000; j >= 0; --j) {
-            if(i >= j) dp[j+i] = (dp[j+i]+dp[j])%mod;
+    for(int i = 1; i < n; ++i) {
+        for(int j = n*(n+1)/4; j >= 0; --j) {
+            (dp[j+i]+=dp[j])%mod;
         }
     }
-    cout << dp[n*2];
+    //cout << dp[n*(n+1)/4];
+    for(int i = 0; i <= n*(n+1)/4; ++i) cout << i << ' ' << dp[i] << '\n';
 }
 
 int main() {
     ios_base::sync_with_stdio(false);
     cin.tie(NULL);
     cin >> n;
-    if(n%2==0) {
-        cout << 0;
-        return 0;
-    }
     solve();
 }
