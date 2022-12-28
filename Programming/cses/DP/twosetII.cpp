@@ -14,8 +14,7 @@ void solve() {
             (dp[j+i]+=dp[j])%mod;
         }
     }
-    //cout << dp[n*(n+1)/4];
-    for(int i = 0; i <= n*(n+1)/4; ++i) cout << i << ' ' << dp[i] << '\n';
+    cout << dp[n*(n+1)/4];
 }
 
 int main() {
