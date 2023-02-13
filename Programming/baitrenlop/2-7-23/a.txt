@@ -1,0 +1,157 @@
+tk314‣exp: 3.57
+exp.cpp
+Dịch thành công
+
+tk314‣exp‣Test00: 0.07
+Thời gian ≈ 0.050494300 giây
+Kết quả khớp đáp án!
+tk314‣exp‣Test01: 0.07
+Thời gian ≈ 0.046787400 giây
+Kết quả khớp đáp án!
+tk314‣exp‣Test02: 0.07
+Thời gian ≈ 0.056657400 giây
+Kết quả khớp đáp án!
+tk314‣exp‣Test03: 0.07
+Thời gian ≈ 0.046020500 giây
+Kết quả khớp đáp án!
+tk314‣exp‣Test04: 0.07
+Thời gian ≈ 0.047529100 giây
+Kết quả khớp đáp án!
+tk314‣exp‣Test05: 0.07
+Thời gian ≈ 0.056757700 giây
+Kết quả khớp đáp án!
+tk314‣exp‣Test06: 0.07
+Thời gian ≈ 0.045698500 giây
+Kết quả khớp đáp án!
+tk314‣exp‣Test07: 0.07
+Thời gian ≈ 0.051456600 giây
+Kết quả khớp đáp án!
+tk314‣exp‣Test08: 0.07
+Thời gian ≈ 0.045212200 giây
+Kết quả khớp đáp án!
+tk314‣exp‣Test09: 0.07
+Thời gian ≈ 0.048469900 giây
+Kết quả khớp đáp án!
+tk314‣exp‣Test10: 0.07
+Thời gian ≈ 0.050605300 giây
+Kết quả khớp đáp án!
+tk314‣exp‣Test11: 0.07
+Thời gian ≈ 0.053172200 giây
+Kết quả khớp đáp án!
+tk314‣exp‣Test12: 0.07
+Thời gian ≈ 0.049981700 giây
+Kết quả khớp đáp án!
+tk314‣exp‣Test13: 0.07
+Thời gian ≈ 0.057076000 giây
+Kết quả khớp đáp án!
+tk314‣exp‣Test14: 0.07
+Thời gian ≈ 0.046998400 giây
+Kết quả khớp đáp án!
+tk314‣exp‣Test15: 0.07
+Thời gian ≈ 0.049863500 giây
+Kết quả khớp đáp án!
+tk314‣exp‣Test16: 0.07
+Thời gian ≈ 0.048142100 giây
+Kết quả khớp đáp án!
+tk314‣exp‣Test17: 0.07
+Thời gian ≈ 0.043483200 giây
+Kết quả khớp đáp án!
+tk314‣exp‣Test18: 0.07
+Thời gian ≈ 0.046240400 giây
+Kết quả khớp đáp án!
+tk314‣exp‣Test19: 0.07
+Thời gian ≈ 0.046625900 giây
+Kết quả khớp đáp án!
+tk314‣exp‣Test20: 0.07
+Thời gian ≈ 0.052177400 giây
+Kết quả khớp đáp án!
+tk314‣exp‣Test21: 0.07
+Thời gian ≈ 0.047433500 giây
+Kết quả khớp đáp án!
+tk314‣exp‣Test22: 0.07
+Thời gian ≈ 0.044321900 giây
+Kết quả khớp đáp án!
+tk314‣exp‣Test23: 0.07
+Thời gian ≈ 0.050462900 giây
+Kết quả khớp đáp án!
+tk314‣exp‣Test24: 0.07
+Thời gian ≈ 0.046340400 giây
+Kết quả khớp đáp án!
+tk314‣exp‣Test25: 0.07
+Thời gian ≈ 0.048690800 giây
+Kết quả khớp đáp án!
+tk314‣exp‣Test26: 0.07
+Thời gian ≈ 0.050366100 giây
+Kết quả khớp đáp án!
+tk314‣exp‣Test27: 0.07
+Thời gian ≈ 0.047297600 giây
+Kết quả khớp đáp án!
+tk314‣exp‣Test28: 0.07
+Thời gian ≈ 0.044982600 giây
+Kết quả khớp đáp án!
+tk314‣exp‣Test29: 0.07
+Thời gian ≈ 0.046800100 giây
+Kết quả khớp đáp án!
+tk314‣exp‣Test30: 0.07
+Thời gian ≈ 0.045589200 giây
+Kết quả khớp đáp án!
+tk314‣exp‣Test31: 0.07
+Thời gian ≈ 0.051035700 giây
+Kết quả khớp đáp án!
+tk314‣exp‣Test32: 0.07
+Thời gian ≈ 0.051623800 giây
+Kết quả khớp đáp án!
+tk314‣exp‣Test33: 0.07
+Thời gian ≈ 0.045640900 giây
+Kết quả khớp đáp án!
+tk314‣exp‣Test34: 0.07
+Thời gian ≈ 0.045935300 giây
+Kết quả khớp đáp án!
+tk314‣exp‣Test35: 0.07
+Thời gian ≈ 0.047005200 giây
+Kết quả khớp đáp án!
+tk314‣exp‣Test36: 0.07
+Thời gian ≈ 0.047049200 giây
+Kết quả khớp đáp án!
+tk314‣exp‣Test37: 0.07
+Thời gian ≈ 0.046958100 giây
+Kết quả khớp đáp án!
+tk314‣exp‣Test38: 0.07
+Thời gian ≈ 0.044190100 giây
+Kết quả khớp đáp án!
+tk314‣exp‣Test39: 0.07
+Thời gian ≈ 0.043912900 giây
+Kết quả khớp đáp án!
+tk314‣exp‣Test40: 0.07
+Thời gian ≈ 0.369807800 giây
+Kết quả khớp đáp án!
+tk314‣exp‣Test41: 0.07
+Thời gian ≈ 0.737464900 giây
+Kết quả khớp đáp án!
+tk314‣exp‣Test42: 0.07
+Thời gian ≈ 0.355238300 giây
+Kết quả khớp đáp án!
+tk314‣exp‣Test43: 0.07
+Thời gian ≈ 0.080225100 giây
+Kết quả khớp đáp án!
+tk314‣exp‣Test44: 0.07
+Thời gian ≈ 0.122672700 giây
+Kết quả khớp đáp án!
+tk314‣exp‣Test45: 0.07
+Thời gian ≈ 0.488235800 giây
+Kết quả khớp đáp án!
+tk314‣exp‣Test46: 0.07
+Thời gian ≈ 0.267803400 giây
+Kết quả khớp đáp án!
+tk314‣exp‣Test47: 0.07
+Thời gian ≈ 0.197296700 giây
+Kết quả khớp đáp án!
+tk314‣exp‣Test48: 0.07
+Thời gian ≈ 0.632211000 giây
+Kết quả khớp đáp án!
+tk314‣exp‣Test49: 0.07
+Thời gian ≈ 0.722773800 giây
+Kết quả khớp đáp án!
+tk314‣exp‣Testvd: 0.07
+Thời gian ≈ 0.048560700 giây
+Kết quả khớp đáp án!

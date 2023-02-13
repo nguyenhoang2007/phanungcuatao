@@ -3,12 +3,14 @@
 #define ll long long
 using namespace std;
 int test_case;
+string s,c;
+
 void solve() {
-    char a;
-    cin >> a;
-    if(a == 'c' || a == 'o' || a == 'd' || a == 'e' || a == 'f' || a == 'r' || a == 'e' || a == 's')
-    cout << "YES";
-    else cout << "NO;";
+    c.clear();
+    cin >> s;
+    for(int i = 0; i < s.size(); ++i) {
+        
+    }
 }
 
 int main() {

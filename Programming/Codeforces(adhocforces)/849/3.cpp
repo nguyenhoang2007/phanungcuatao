@@ -4,18 +4,14 @@
 using namespace std;
 int test_case;
 void solve() {
-    int n,x=0,y=0,check=0;
+    int n,ans=0;
     string a;
     cin >> n >> a;
-    for(char i : a) {
-        if(i == 'U') y++;
-        else if(i == 'D') y--;
-        else if(i == 'L') x--;
-        else x++;
-        if(x == 1 && y == 1) check = 1;
+    for(int i = 0; i < n/2; ++i) {
+        if(a[i] != a[n-i-1]) ans++;
+        else break;
     }
-    if(check) cout << "yes";
-    else cout << "no";
+    cout << n-ans*2;
 }
 
 int main() {

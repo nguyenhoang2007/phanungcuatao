@@ -4,11 +4,11 @@
 using namespace std;
 int test_case;
 void solve() {
-    char a;
-    cin >> a;
-    if(a == 'c' || a == 'o' || a == 'd' || a == 'e' || a == 'f' || a == 'r' || a == 'e' || a == 's')
-    cout << "YES";
-    else cout << "NO;";
+    int n,p[100000],m,a[100000],d;
+    cin >> n >> m >> d;
+    for(int i = 0; i < n; ++i) cin >> p[i];
+    for(int i = 0; i < m; ++i) cin >> a[i];
+     
 }
 
 int main() {
