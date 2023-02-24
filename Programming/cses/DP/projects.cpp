@@ -18,9 +18,9 @@ void solve() {
 	sort(a+1,a+n+1,endday);
 	for(ll i = 1; i <= n; ++i) {
 		e[i] = a[i].end;
-		ll f = upper_bound(e,e+i,a[i].start-1)-e-1;
+		ll f = lower_bound(e,e+i,a[i].start)-e-1;
 		dp[i] = m[f]+a[i].val;
-		m[i] = max(dp[i],dp[i-1]);
+		m[i] = max(dp[i],m[i-1]);
 	}
 	cout << m[n];
 }
