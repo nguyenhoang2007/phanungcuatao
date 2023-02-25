@@ -2,7 +2,7 @@
 
 #define int long long
 using namespace std;
-int n,i;
+int n,i=10;
 
 bool ssh(int x) {
     int t = 0;
@@ -15,7 +15,7 @@ bool ssh(int x) {
 
 void solve() {
     while(n) {
-        n-=(ssh(++i));
+        n-=(ssh(i+=9));
     }
     cout << i;
 }

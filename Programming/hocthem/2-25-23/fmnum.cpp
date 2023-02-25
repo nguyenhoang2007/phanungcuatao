@@ -6,11 +6,8 @@ int n,s,a[1000000];
 
 void solve() {
     for(int i = n-1; i >= 0; --i) {
-        if(s > 9) a[i] = s-=9;
-        else if(i != 0) {
-            a[i] = s-1;
-            s-=a[i];
-        }
+        if(s > 9) s-= a[i]=9;
+        else if(i != 0) s-= a[i]=s-1;
         else a[i] = s;
     }
     for(int i = 0; i < n; ++i) cout << a[i];
