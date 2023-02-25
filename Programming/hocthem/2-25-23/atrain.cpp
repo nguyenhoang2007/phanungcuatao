@@ -13,8 +13,8 @@ void solve() {
 int32_t main() {
     ios_base::sync_with_stdio(false);
     cin.tie(NULL);
-    //freopen("atrain.inp","r",stdin);
-    //freopen("atrain.out","w",stdout);
+    freopen("atrain.inp","r",stdin);
+    freopen("atrain.out","w",stdout);
     //initialize
     cin >> n;
     for(int i = 1; i <= n; ++i) cin >> a[i] >> b[i];

@@ -23,8 +23,8 @@ void solve() {
 int32_t main() {
     ios_base::sync_with_stdio(false);
     cin.tie(NULL);
-    //freopen("shh.inp","r",stdin);
-    //freopen("shh.out","w",stdout);
+    freopen("shh.inp","r",stdin);
+    freopen("shh.out","w",stdout);
     //initialize
     cin >> n;
     solve();
