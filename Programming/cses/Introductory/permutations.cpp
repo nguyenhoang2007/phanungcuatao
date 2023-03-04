@@ -2,14 +2,15 @@
 
 #define ll long long
 using namespace std;
-ll n;
+int n;
 
 void solve() {
-    cout << n << ' ';
-    while(n!=1) {
-        n+=(n%2?2*n+1:-n/2);
-        cout << n << ' ';
+    if(n == 3 || n == 2) {
+        cout << "NO SOLUTION";
+        return;
     }
+    for(int i = n-1; i >= 1; i-=2) cout << i << ' ';
+    for(int i = n; i >= 1; i-=2) cout << i << ' ';
 }
 
 int main() {

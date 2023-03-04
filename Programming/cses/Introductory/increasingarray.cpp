@@ -2,14 +2,16 @@
 
 #define ll long long
 using namespace std;
-ll n;
+int n;
+ll c;
+vector<int> a(1000001);
 
 void solve() {
-    cout << n << ' ';
-    while(n!=1) {
-        n+=(n%2?2*n+1:-n/2);
-        cout << n << ' ';
+    for(int i = 1; i < n; ++i) {
+        c += max(0,a[i-1]-a[i]);
+        a[i] = max(a[i-1],a[i]);
     }
+    cout << c;
 }
 
 int main() {
@@ -17,5 +19,6 @@ int main() {
     cin.tie(NULL);
     //initialize
     cin >> n;
+    for(int i = 0; i < n; ++i) cin >> a[i];
     solve();
 }

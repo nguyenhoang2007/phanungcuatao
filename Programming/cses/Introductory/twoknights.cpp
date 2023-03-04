@@ -2,13 +2,15 @@
 
 #define ll long long
 using namespace std;
-ll n;
+unsigned ll n,p=1056,a[7] = {0,6,28,96,252,550,1056};
 
 void solve() {
-    cout << n << ' ';
-    while(n!=1) {
-        n+=(n%2?2*n+1:-n/2);
-        cout << n << ' ';
+    if(n <= 7) {
+        cout << a[n-1];
+        return;
+    }
+    for(unsigned ll i = 8; i <= n; ++i) {
+        p += 6+(i-2)*4*2-2;
     }
 }
 

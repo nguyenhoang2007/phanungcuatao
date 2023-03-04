@@ -2,9 +2,10 @@
 
 #define ll long long
 using namespace std;
-ll a,b,n,m,r;
+ll test_case,a,b,n,m,r;
 
 void solve() {
+    cin >> a >> b >> n >> m;
     if(a*m<b*(m+1)) {
         r = (a*m)*(n/(m+1));
         n%=(m+1);
@@ -13,18 +14,14 @@ void solve() {
         n%=m;
     }
     r += (n*min(a,b));
-    cout << r;
+    cout << r << '\n';
 }
 
-void init() {
-    cin >> a >> b >> n >> m;
-}
 
 int main() {
     ios_base::sync_with_stdio(false);
     cin.tie(NULL);
-    freopen("nemchuap.inp","r",stdin);
-    freopen("nemchuap.out","w",stdout);
-    init();
+    cin >> test_case;
+    while(test_case--)
     solve();
 }

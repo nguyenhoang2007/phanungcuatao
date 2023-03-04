@@ -2,20 +2,19 @@
 
 #define ll long long
 using namespace std;
-ll n;
 
+string s;
+int c=1,m=1;
 void solve() {
-    cout << n << ' ';
-    while(n!=1) {
-        n+=(n%2?2*n+1:-n/2);
-        cout << n << ' ';
-    }
+    for(int i = 1; i < s.size(); ++i)
+        m = max(m,(s[i]==s[i-1]?++c:c=1));
+    cout << m;
 }
 
 int main() {
     ios_base::sync_with_stdio(false);
     cin.tie(NULL);
     //initialize
-    cin >> n;
+    cin >> s;
     solve();
 }
