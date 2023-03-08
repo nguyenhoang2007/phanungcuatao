@@ -2,17 +2,15 @@
 
 #define ll long long
 using namespace std;
-unsigned ll n;
-
+int a,b;
 void solve() {
-    for(unsigned ll i = 1; i <= n; ++i)
-        cout << (i*i)*(i*i-1)/2-4*(i-1)*max((unsigned ll)0,i-2) << '\n';
+    cout << (min(a,b)*2>)
 }
 
 int main() {
     ios_base::sync_with_stdio(false);
     cin.tie(NULL);
     //initialize
-    cin >> n;
+    cin >> a >> b;
     solve();
 }

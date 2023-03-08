@@ -2,11 +2,11 @@
 
 #define ll long long
 using namespace std;
-unsigned ll n;
+unsigned ll n,m=1;
 
 void solve() {
-    for(unsigned ll i = 1; i <= n; ++i)
-        cout << (i*i)*(i*i-1)/2-4*(i-1)*max((unsigned ll)0,i-2) << '\n';
+    while(n--) (m*=2)%=1000000007;
+    cout << m;
 }
 
 int main() {
